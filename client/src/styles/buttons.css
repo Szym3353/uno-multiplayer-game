@@ -1,0 +1,35 @@
+.main-button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .main-button:active {
+    transform: translate(2px, 3px);
+    box-shadow: 0px 1px var(--colorBrownDark);
+  }
+  .button-style-1 {
+    font-family: var(--font1);
+    box-shadow: 2px 4px var(--colorBrownDark);
+    color: white;
+  
+    background: var(--colorBrown);
+  }
+  
+  .button-style-1:hover {
+    background-color: var(--colorBrownLightDarker);
+  }
+  
+  
+  .button-style-2 {
+    background: var(--colorBrownDark);
+    color: white;
+    box-shadow: 2px 4px var(--colorBrownDarker);
+  }
+  
+  .button-style-2:hover {
+    background: var(--colorBrownLightDarker);
+  }
+  

@@ -1,0 +1,97 @@
+.homepage-box {
+  min-width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-header {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: var(--font1);
+  text-shadow: 3px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 10px 30px 50px;
+}
+
+.homepage-userinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.userinfo-pfp {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  display: block;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.userinfo-txt {
+  min-width: 30%;
+}
+
+.userinfo-username {
+  font-size: 30px;
+  font-family: var(--font1);
+  margin-bottom: 10px;
+}
+
+.userinfo-stats {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.homepage-lobby-buttons {
+  padding: 60px 0 40px;
+}
+
+.homepage-lobbybutton {
+  width: 200px;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.code-box {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  display: none;
+  width: 250px;
+}
+
+.code-box-error {
+  color: rgb(255, 255, 255);
+}
+
+.show-code-box {
+  display: block;
+}
+
+.code-input {
+  background: rgba(10, 10, 10, 0.6);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 650px) {
+  .homepage-header {
+    font-size: 40px;
+  }
+  .userinfo-pfp {
+    display: none;
+  }
+  .userinfo-username {
+    font-size: 20px;
+  }
+  .homepage-lobbybutton {
+    width: 125px;
+    font-size: 14px;
+  }
+}

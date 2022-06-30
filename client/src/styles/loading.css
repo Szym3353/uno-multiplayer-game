@@ -1,0 +1,18 @@
+.loading-image {
+  width: 200px;
+  padding: 50px;
+  animation: breadRotation 2s infinite linear;
+}
+
+.loading-txt {
+  text-align: center;
+}
+
+@keyframes breadRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
